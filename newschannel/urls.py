@@ -33,5 +33,5 @@ urlpatterns = [
 	path('local/',views.local,name='local'),
 	path('cinema/',views.cinema,name='cinema'),
 	path('sports/',views.sports,name='sports'),
-	
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
